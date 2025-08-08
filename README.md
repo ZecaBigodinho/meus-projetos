@@ -22,6 +22,7 @@ O principal aprendizado técnico foi a utilização do **MongoDB**. A gestão do
 ### 📸 Evidências Visuais
 
 <img width="950" height="779" alt="login" src="https://github.com/user-attachments/assets/92337614-8584-4688-9ca1-1f66244d3d4e" />
+<img width="934" height="718" alt="alunos" src="https://github.com/user-attachments/assets/ddf539c4-bf8b-4525-9390-6eba16f58feb" />
 <img width="919" height="551" alt="materia" src="https://github.com/user-attachments/assets/eb3238af-249f-4d59-9263-4a54f5a84013" />
 <img width="950" height="775" alt="professor chat" src="https://github.com/user-attachments/assets/d7338c43-4e3a-474c-af5e-9544600242e1" />
 <img width="927" height="737" alt="tela principal" src="https://github.com/user-attachments/assets/09276765-675f-458c-98fa-d11e271ca468" />
