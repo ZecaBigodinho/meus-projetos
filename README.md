@@ -21,7 +21,8 @@ Aprendizados e desafios encontrados.
 📬 Contato
 Gostou de algum projeto ou tem alguma sugestão? Fique à vontade para entrar em contato!
 
-LinkedIn: https://www.linkedin.com/in/pedro-paulo-968aaa1b7
-Email: pedropaulo4hire@gmail.com
+### LinkedIn: https://www.linkedin.com/in/pedro-paulo-968aaa1b7
+
+### Email: pedropaulo4hire@gmail.com
 
 Sinta-se à vontade para explorar, clonar os repositórios e usar como inspiração!
