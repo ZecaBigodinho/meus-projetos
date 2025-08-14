@@ -25,4 +25,3 @@ Gostou de algum projeto ou tem alguma sugestão? Fique à vontade para entrar em
 
 ### Email: pedropaulo4hire@gmail.com
 
-Sinta-se à vontade para explorar, clonar os repositórios e usar como inspiração!
