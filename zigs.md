@@ -1,6 +1,6 @@
-🚀 Projeto: Plataforma de Ensino Gamificada
-### Status: Em fase de testes
+### 🚀 Projeto: Plataforma de Ensino Gamificada
 
+### Status: Em fase de testes
 ### Tecnologias Utilizadas: <img src="https://skillicons.dev/icons?i=flutter,firebase&theme=dark" />
 
 ### Descrição:
@@ -22,11 +22,11 @@ Acesso Baseado em Papel (RBAC): Interfaces e funcionalidades distintas para Prof
 * **Gamificação**: O modo Flash inclui um cronômetro em tempo real para criar um ambiente de aprendizado mais dinâmico e competitivo.
 * **Acompanhamento de Pontuação**: A pontuação é calculada e salva automaticamente ao final de cada atividade.
 
-Meu Papel e Principais Aprendizados
+### Meu Papel e Principais Aprendizados
 Este projeto foi desenvolvido individualmente, com responsabilidade total sobre o design da arquitetura, desenvolvimento front-end em Flutter e a implementação do backend no Firebase.
 
 O maior desafio foi criar uma arquitetura de dados flexível no Cloud Firestore que suportasse as diferentes funcionalidades, como os múltiplos modos de atividade e o rastreamento de pontuação individual. A decisão de adicionar um mapa activityScores no documento de cada usuário, por exemplo, foi um aprendizado crucial que possibilitou a criação do painel de desempenho do professor de forma eficiente.
 
 O principal aprendizado técnico foi a gestão de estado em tempo real no Flutter para a funcionalidade do quiz "Flash". A implementação de um Timer que interage com o ciclo de vida do widget (StatefulWidget) para controlar a contagem regressiva, o avanço automático entre as questões e evitar vazamentos de memória foi uma experiência desafiadora e de grande valor. A utilização de Cloud Functions para automatizar a limpeza de dados do usuário também reforçou a importância de manter a integridade do banco de dados.
 
-📸 Evidências Visuais
+📸 Evidências Visuais:
