@@ -1,31 +1,24 @@
 🚀 Projeto: Plataforma de Ensino Gamificada
-Status: Em Desenvolvimento
+### Status: Em fase de testes
 
-Tecnologias Utilizadas: <img src="https://skillicons.dev/icons?i=flutter,firebase&theme=dark" />
+### Tecnologias Utilizadas: <img src="https://skillicons.dev/icons?i=flutter,firebase&theme=dark" />
 
-Descrição
+### Descrição:
 Este projeto foi desenvolvido com o objetivo de criar uma plataforma educacional para escolas, permitindo a aplicação de tarefas, provas e a disponibilização de conteúdo de forma digital. A solução foi projetada para modernizar a sala de aula, com foco em engajamento através de gamificação e fornecendo feedback em tempo real para professores e alunos.
 
-Principais Funcionalidades
+### Principais Funcionalidades:
 Acesso Baseado em Papel (RBAC): Interfaces e funcionalidades distintas para Professores e Alunos, garantindo que cada um tenha acesso apenas às ferramentas relevantes para seu papel.
-
-Painel do Professor:
-
+### Painel do Professor:
 Dashboard Central: Acesso rápido a todas as ferramentas de gerenciamento.
-
 Gerenciamento de Atividades: Crie, visualize, edite e delete atividades.
-
 Modos de Atividade Dinâmicos: Suporte para atividades "Clássicas" (com prazo final) e "Flash" (estilo Kahoot, com cronômetro por questão).
-
 Criação de Questões: Adicione questões de múltipla escolha ou dissertativas, com suporte para upload de imagens.
-
 Sistema de Frequência (Chamada): Registre e consulte o histórico de presença dos alunos por curso e data.
-
 Painel de Desempenho: Acompanhe o progresso dos alunos, visualize as atividades que eles completaram e suas pontuações.
 
-Painel do Aluno:
+### Painel do Aluno:
 
-Lista de Atividades: Visualize todas as atividades disponíveis para o seu curso, com ícones que diferenciam os modos.
+* **Lista de Atividades**: Visualize todas as atividades disponíveis para o seu curso, com ícones que diferenciam os modos.
 
 Quiz Interativo: Responda a atividades nos modos Clássico ou Flash através de uma interface limpa e reativa.
 
