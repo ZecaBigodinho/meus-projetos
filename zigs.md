@@ -1,4 +1,4 @@
-### 🚀 Projeto: Plataforma de Ensino Gamificada
+## 🚀 Projeto: Plataforma de Ensino Gamificada
 
 ### Status: Em fase de testes
 ### Tecnologias Utilizadas: <img src="https://skillicons.dev/icons?i=flutter,firebase&theme=dark" />
