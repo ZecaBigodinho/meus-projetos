@@ -9,22 +9,18 @@ Este projeto foi desenvolvido com o objetivo de criar uma plataforma educacional
 ### Principais Funcionalidades:
 Acesso Baseado em Papel (RBAC): Interfaces e funcionalidades distintas para Professores e Alunos, garantindo que cada um tenha acesso apenas às ferramentas relevantes para seu papel.
 ### Painel do Professor:
-Dashboard Central: Acesso rápido a todas as ferramentas de gerenciamento.
-Gerenciamento de Atividades: Crie, visualize, edite e delete atividades.
-Modos de Atividade Dinâmicos: Suporte para atividades "Clássicas" (com prazo final) e "Flash" (estilo Kahoot, com cronômetro por questão).
-Criação de Questões: Adicione questões de múltipla escolha ou dissertativas, com suporte para upload de imagens.
-Sistema de Frequência (Chamada): Registre e consulte o histórico de presença dos alunos por curso e data.
-Painel de Desempenho: Acompanhe o progresso dos alunos, visualize as atividades que eles completaram e suas pontuações.
+* **Dashboard Central**: Acesso rápido a todas as ferramentas de gerenciamento.
+* **Gerenciamento de Atividades**: Crie, visualize, edite e delete atividades.
+* **Modos de Atividade Dinâmicos**: Suporte para atividades "Clássicas" (com prazo final) e "Flash" (estilo Kahoot, com cronômetro por questão).
+* **Criação de Questões**: Adicione questões de múltipla escolha ou dissertativas, com suporte para upload de imagens.
+* **Sistema de Frequência (Chamada)**: Registre e consulte o histórico de presença dos alunos por curso e data.
+* **Painel de Desempenho**: Acompanhe o progresso dos alunos, visualize as atividades que eles completaram e suas pontuações.
 
 ### Painel do Aluno:
-
 * **Lista de Atividades**: Visualize todas as atividades disponíveis para o seu curso, com ícones que diferenciam os modos.
-
-Quiz Interativo: Responda a atividades nos modos Clássico ou Flash através de uma interface limpa e reativa.
-
-Gamificação: O modo Flash inclui um cronômetro em tempo real para criar um ambiente de aprendizado mais dinâmico e competitivo.
-
-Acompanhamento de Pontuação: A pontuação é calculada e salva automaticamente ao final de cada atividade.
+* **Quiz Interativo**: Responda a atividades nos modos Clássico ou Flash através de uma interface limpa e reativa.
+* **Gamificação**: O modo Flash inclui um cronômetro em tempo real para criar um ambiente de aprendizado mais dinâmico e competitivo.
+* **Acompanhamento de Pontuação**: A pontuação é calculada e salva automaticamente ao final de cada atividade.
 
 Meu Papel e Principais Aprendizados
 Este projeto foi desenvolvido individualmente, com responsabilidade total sobre o design da arquitetura, desenvolvimento front-end em Flutter e a implementação do backend no Firebase.
