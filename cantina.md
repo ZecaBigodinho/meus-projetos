@@ -36,47 +36,40 @@ A aplicação segue uma arquitetura de cliente-servidor com um back-end totalmen
 * **O Cloud Firestore é a fonte única de verdade para todos os dados persistentes (usuários, produtos, pedidos, avaliações), utilizando streams para atualizações em tempo real na interface.**
 * **As Cloud Functions fornecem uma lógica de back-end reativa e automatizada, desacomplando a responsabilidade de enviar notificações do aplicativo cliente. Quando o administrador atualiza um pedido no Firestore, uma função é acionada na nuvem para enviar a notificação push.**
 
-### 📂 Estrutura de Diretórios
+## 📂 Estrutura de Diretórios
+
 A estrutura de pastas do projeto segue as convenções da comunidade Flutter para organização e escalabilidade.
 
+```
 cantina/
 ├── android/              # Configurações específicas do Android
 ├── assets/
 │   └── icon/
 │       └── icon.png      # Ícone de alta resolução para o app
 ├── functions/            # Projeto Node.js/TypeScript para as Cloud Functions
-│   ├── src/
-│   │   └── index.ts      # Lógica de back-end para notificações
-│   └── ...
+│   └── src/
+│       └── index.ts      # Lógica de back-end para notificações
 ├── lib/
 │   ├── main.dart         # Ponto de entrada da aplicação
 │   ├── firebase_options.dart # Gerado pelo FlutterFire
-│   │
-│   ├── models/           # Classes de modelo de dados (Product, Order, User, etc.)
-│   │   ├── user_model.dart
-│   │   └── ...
-│   │
+│   ├── models/           # Classes de modelo de dados (Product, Order, etc.)
 │   ├── screens/          # Widgets que representam cada tela do app
-│   │   ├── login_screen.dart
-│   │   └── ...
-│   │
 │   └── services/         # Lógica de negócio e comunicação com Firebase
-│       ├── auth_service.dart (implícito no login_screen)
-│       ├── firestore_service.dart (implícito nos serviços e telas)
-│       └── ...
-│
 ├── pubspec.yaml          # Definição de dependências e metadados do projeto
 └── cors.json             # Arquivo de configuração de CORS para o Firebase Storage
+```
 
-### 💻 Tecnologias Utilizadas
-Categoria:	Tecnologia
-Cross-Platform:	Flutter
-Linguagem (App):	Dart
-Back-end:	Firebase (Serverless)
-Autenticação:	Firebase Authentication
-Banco de Dados:	Cloud Firestore (NoSQL)
-Armazenamento:	Firebase Storage (para imagens de produtos)
-Notificações:	Firebase Cloud Messaging (FCM)
-Lógica de Back-end:	Cloud Functions for Firebase (escrita em TypeScript)
-Estado (Simples):	ValueNotifier
-Ícone do App:	flutter_launcher_icons**
+## 💻 Tecnologias Utilizadas
+
+| Categoria          | Tecnologia                                                              |
+| :----------------- | :---------------------------------------------------------------------- |
+| **Cross-Platform** | [Flutter](https://flutter.dev/)                                         |
+| **Linguagem (App)**| [Dart](https://dart.dev/)                                               |
+| **Back-end** | [Firebase (Serverless)](https://firebase.google.com/)                   |
+| **Autenticação** | [Firebase Authentication](https://firebase.google.com/docs/auth)        |
+| **Banco de Dados** | [Cloud Firestore](https://firebase.google.com/docs/firestore) (NoSQL)   |
+| **Armazenamento** | [Firebase Storage](https://firebase.google.com/docs/storage)            |
+| **Notificações** | [Firebase Cloud Messaging (FCM)](https://firebase.google.com/docs/cloud-messaging)|
+| **Lógica de Back-end**| [Cloud Functions for Firebase](https://firebase.google.com/docs/functions) (TypeScript) |
+| **Estado (Simples)** | [ValueNotifier](https://api.flutter.dev/flutter/foundation/ValueNotifier-class.html)                   |
+| **Ícone do App** | [flutter\_launcher\_icons](https://pub.dev/packages/flutter_launcher_icons)                          |
