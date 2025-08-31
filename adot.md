@@ -11,7 +11,7 @@ Este projeto nasceu da necessidade de uma ferramenta acessível e centralizada p
 
 ### 📂 Estrutura de Diretórios
 O núcleo do projeto está contido no diretório lib, que segue uma arquitetura orientada a funcionalidades para garantir escalabilidade e manutenibilidade.
-
+```
 lib/
 ├── main.dart                 # Ponto de entrada da aplicação e configuração do roteador
 ├── firebase_options.dart     # Configuração do projeto Firebase
@@ -33,6 +33,8 @@ lib/
 └── widgets/                  # Componentes de UI reutilizáveis
     ├── app_drawer.dart
     └── nova_publicacao_widget.dart
+
+```
 main.dart: Arquivo principal que inicializa o Firebase e define todas as rotas de navegação do aplicativo usando o pacote go_router.
 
 /models: Contém as classes que modelam os dados da aplicação, como Pet e Ong. Garante uma estrutura de dados consistente e fortemente tipada.
