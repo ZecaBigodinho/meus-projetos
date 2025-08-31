@@ -46,18 +46,18 @@ main.dart: Arquivo principal que inicializa o Firebase e define todas as rotas d
 /widgets: Armazena componentes de UI customizados e reutilizáveis, como o menu de navegação (AppDrawer), para manter o código limpo e evitar repetição.
 
 
-### 🛠️ Tecnologias e Arquitetura
-O Adote+ foi construído com tecnologias modernas e uma arquitetura cliente-servidor, utilizando o melhor do ecossistema Flutter e Firebase.
+### ## 🛠️ Tecnologias Utilizadas
 
-Componente	Tecnologia/Serviço	Propósito
-Framework	Flutter	Desenvolvimento de UI nativa e performática para Android e iOS.
-Linguagem	Dart	Linguagem de programação principal, otimizada para UI.
-Autenticação	Firebase Authentication	Gerenciamento seguro de contas de usuário (email/senha).
-Banco de Dados	Cloud Firestore	Banco de dados NoSQL em tempo real para armazenar dados de pets, ONGs e usuários.
-Hospedagem de Mídia	Cloudinary	Serviço especializado para armazenamento, otimização e entrega de imagens.
-Roteamento	go_router	Gerenciamento de navegação e rotas de forma robusta e centralizada.
-APIs Externas	url_launcher	Interação com aplicativos externos, como WhatsApp e Email.
-Seleção de Imagens	image_picker	Acesso à galeria e câmera do dispositivo para upload de fotos.
+| Categoria | Tecnologia |
+| :--- | :--- |
+| **Cross-Platform** | [Flutter](https://flutter.dev/) |
+| **Linguagem (App)** | [Dart](https://dart.dev/) |
+| **Back-end** | [Firebase](https://firebase.google.com/) (Serverless) |
+| **Autenticação** | [Firebase Authentication](https://firebase.google.com/docs/auth) |
+| **Banco de Dados** | [Cloud Firestore](https://firebase.google.com/docs/firestore) (NoSQL) |
+| **Armazenamento de Mídia**| [Cloudinary](https://cloudinary.com/) |
+| **Estado (Simples)** | [ValueNotifier](https://api.flutter.dev/flutter/foundation/ValueNotifier-class.html) |
+| **Geração de Ícone** | [flutter_launcher_icons](https://pub.dev/packages/flutter_launcher_icons) |
 
 ### A arquitetura de alto nível separa a aplicação em três camadas principais:
 
