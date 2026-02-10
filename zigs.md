@@ -1,17 +1,5 @@
 ## 🚀 Projeto: Plataforma de Ensino Gamificada
 
-## 🛠️ Stack Tecnológica
-
-| Camada | Tecnologia | Detalhes |
-| :--- | :--- | :--- |
-| **Frontend** | React.js 18 | Context API, React Router, Hooks Avançados |
-| **Estilização** | Tailwind CSS | Responsividade, Dark Mode, Animações |
-| **Interatividade**| @dnd-kit | Acessibilidade, Sensores de Toque, Sortable |
-| **Backend** | Golang 1.23 | Goroutines (Concurrency), Channels |
-| **Framework** | Gorilla Mux | Roteamento RESTful, Middlewares |
-| **Database** | PostgreSQL | Hospedado no Neon Tech (Cloud), GORM (ORM) |
-| **Infra** | Render / Vercel | CI/CD, Variáveis de Ambiente |
-
 ### Status: Em fase de testes
 ### Tecnologias Utilizadas: <img src="https://skillicons.dev/icons?i=flutter,firebase&theme=dark" />
 
